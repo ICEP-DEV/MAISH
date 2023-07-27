@@ -123,7 +123,6 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 7px 0;
-  /* background-color: white; */
 }
 
 .nav-label {
@@ -134,8 +133,6 @@ h6 {
 #header.header-scrolled,
 #header.header-inner-pages {
   background: rgb(255, 255, 255);
-
-  /* background: rgba(0, 0, 0, 0.8); */
 }
 
 #header .logo {
@@ -324,7 +321,7 @@ h6 {
 }
 
 .navbar-mobile {
-  /* position: fixed; */
+  position: fixed;
   overflow: hidden;
   top: 0;
   right: 0;
@@ -427,7 +424,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-}
+} 
 
 #hero .container {
   position: relative;
@@ -1556,9 +1553,6 @@ section {
   margin-left: 100px;
 }
 
-.horizontal-footer-links{
-  display: flex;
-}
 
 .paragraph-description{
   text-align: justify;
