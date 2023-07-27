@@ -11,6 +11,9 @@ function challenge(){
 function register(){
   window.open("https://docs.google.com/forms/d/e/1FAIpQLScHtgIuA7EJ1v6U9mvtJBJZby-6iBtx470bm-f9lWM_s3gNhw/viewform?usp=sf_link")
 }
+function openMap(){
+  window.open("https://goo.gl/maps/KqX5mAEJKtN2teiM8")
+}
 (function() {
   "use strict";
 
