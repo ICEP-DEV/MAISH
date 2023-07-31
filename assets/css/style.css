@@ -123,6 +123,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 7px 0;
+  background: rgb(255, 255, 255);
 }
 
 .nav-label {
@@ -199,6 +200,7 @@ h6 {
   display: flex;
   list-style: none;
   align-items: center;
+   padding-left: 300px;
 }
 
 .navbar li {
