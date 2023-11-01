@@ -14,12 +14,14 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <!--<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> -->
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
@@ -27,6 +29,9 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/theme.css" rel="stylesheet">
+
+  
 
   <!-- =======================================================
   * Template Name: Gp
@@ -43,15 +48,17 @@
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/img/mp.png" alt="" class="img-fluid"><span>.</span></a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/img/mp.png" alt=""
+        style="width: 0%;"></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a href="index.html">Home</a></li>
-           <li class="dropdown"><a href="#about"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
+          <li class="dropdown"><a href="about.html"><span>About Us</span></a>
+            <!-- <li class="dropdown"><a href="#about"><span>About Us</span> <i class="bi bi-chevron-down"></i></a> -->
+            <!-- <ul>
               <li><a href="about.html">Who we are</a></li>
 
 
@@ -59,13 +66,14 @@
               <li><a class="nav-link scrollto" href="#services">Vision,Mission,Values</a></li>
               <li><a class="nav-link scrollto" href="#team">Board & Management</a></li>
 
-            </ul>
+            </ul> -->
           </li>
 
 
           <li><a href="team.html">Team</a></li>
           <li><a href="announcements.html">Annoucements</a></li>
-		  <li><a href="contacts.html">Contacts</a></li>
+          <li><a href="programme.html"> Programme</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
 
 
         </ul>
@@ -73,94 +81,114 @@
       </nav><!-- .navbar -->
 
       
+      <!--  -->
 
     </div>
   </header><!-- End Header -->
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
+     <!-- ======= Breadcrumbs ======= -->
     <section class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          
+          <h2></h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Themes</li>
+            <li><a href=""></a></li>
+          
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
+    
+
     <!-- ======= About Section ======= -->
-       <section id="about" class="about">
-         <div class="container" data-aos="fade-up">
-           <div class="section-title">
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
 
-             <h2>Themes</h2>
+          <h2>Themes</h2>
 
-           </div>
-           <div class="row">
-             <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+        </div>
+        <div class="row">
 
-             </div>
-             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <table id="customers" >
+              <thead >
+                <th>AI Hackathon Themes</th>
+                <th>Project Ideas</th>
+                <th style="padding: 5px;">Description</th>
+              </thead>
+              <tbody>
+                <tr class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
 
-               <ul>
-                 <li><i class="ri-check-double-line"></i>Health</li>
-                 <li><i class="ri-check-double-line"></i>Safety</li>
-                 <li><i class="ri-check-double-line"></i> Service Delivery</li>
-                 <li><i class="ri-check-double-line"></i> Education</li>
-               </ul>
+                  <td rowspan="2">Health</td>
 
-             </div>
-           </div>
+                  <td>Smart Health Tracker</td>
+                  <td>Develop a comprehensive health tracking app that uses AI to analyze user input symptoms and give
+                    potential diagnoses, track emotional health through mood inputs, and provide personalized fitness
+                    and diet tips.</td>
+                </tr>
+                <tr>
+                  <td>Mental health virtual companion</td>
+                  <td>Program a chatbot that offers psychological support, providing resources, immediate conversation,
+                    tracking mental health status, and reminding users about taking their medication, meditation
+                    sessions, or scheduled therapy appointments.</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">Safety</td>
 
-         </div>
-       </section><!-- End About Section -->
-       <!-- ======= About Section ======= -->
-          <section id="about" class="about">
-            <div class="container" data-aos="fade-up">
-              <div class="section-title">
+                  <td>Safety Compliance</td>
+                  <td>The system must use AI to detect if the person entering the work area has all required PPE (personal protection equipment). After the person has entered, the model must be able to keep monitoring the personnel around the area covered by security camera, then highlight (either by text, audio, etc.) who and when did the non-compliance happen (e.g. someone taking off the hard-hat or hand-gloves) </td>
+                </tr>
+                <tr>
+                  <td>Emergency Response System</td>
+                  <td>utilize machine learning and GPS tracking to create an app that helps locate individuals in
+                    emergency situations, like natural disasters, directing them to the nearest safe zones and providing
+                    live updates on the situation.</td>
+                </tr>
 
-                <h2>Trends</h2>
+                <tr>
+                  <td rowspan="2">Service Delivery</td>
 
-              </div>
-              <div class="row">
-                <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+                  <td>Automated Waste sorter</td>
+                  <td>Build a prototype for a device that uses image recognition to sort waste into recyclables,
+                    compost, and trash, encouraging proper waste management and sustainability.</td>
+                </tr>
+                <tr>
+                  <td>Crowdsource Commute planning</td>
+                  <td>Design an app that aggregates public transport and traffic data, user-reported conditions, and
+                    alternative routes (like cycling paths) to optimize commute times, reduce congestion, and promote
+                    eco-friendly transport options</td>
+                </tr>
+                <tr>
+                  <td rowspan="3">Education</td>
 
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                  <td>Tourist Attraction</td>
+                  <td>The system must use AI to provide extra information on any tourist attraction given a picture if it. Example, a use takes a picture of the site (e.g. 3 rondavels)  - then the model generate explanation about it – maybe even recommendations. This could be more vital for rural areas or less toured areas as popular ones might be covered. E.g. the system might use feed from social media regarding that area/attraction site (citizen comments) or webistes (official/professional comments)</td>
+                </tr>
+                <tr>
+                  <td>Cyber Defense Game</td>
+                  <td>Develop an educational computer game that teaches players about cybersecurity, including safe
+                    practices, password security, and phishing scam identification, through real-life scenarios</td>
+                </tr>
+                <tr>
+                  <td>Language Learning Appe</td>
+                  <td>Create an interactive, AI-powered language learning app that personalizes content based on the user's proficiency level, learning pace, and daily life and interests, using speech recognition for pronunciation correction.</td>
 
-                  <ul>
-                    <li><i class="ri-check-double-line"></i>HIV Awareness</li>
-                    <li><i class="ri-check-double-line"></i>Safety & GBV&F</li>
-                    <li><i class="ri-check-double-line"></i> Energy</li>
-                    <li><i class="ri-check-double-line"></i> Academic Operation</li>
+                </tr>
+              </tbody>
+            </table>
 
-                    <li><i class="ri-check-double-line"></i>Fin-Tech</li>
-                    <li><i class="ri-check-double-line"></i>Cleanliness</li>
-                    <li><i class="ri-check-double-line"></i> Township Economy</li>
-                    <li><i class="ri-check-double-line"></i> Drug Abuse Awareness</li>
+          </div>
+        </div>
 
-                    <li><i class="ri-check-double-line"></i>Municipal Online Services</li>
-                    <li><i class="ri-check-double-line"></i>Tourism</li>
-                    <li><i class="ri-check-double-line"></i> Climate Change</li>
-                    <li><i class="ri-check-double-line"></i> Prep Info Awareness</li>
-                  </ul>
-                  </ul>
-
-                </div>
-              </div>
-
-            </div>
-          </section><!-- End About Section -->
-
-
-
-
+      </div>
+    </section><!-- End About Section -->
+    <!-- ======= About Section ======= -->
 
   </main><!-- End #main -->
 
@@ -168,51 +196,57 @@
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-
+        <div class="row set-footer-horizontal">
+          <div class="col-lg-3 col-md-6 footer-info">
+            <div class="details">
               <p>
-                <strong>Address:</strong>Emalahleni<br>
+                <strong>Address:</strong>Mandela St, Witbank, Emalahleni, 1034<br>
                 <strong>Phone:</strong>0724465512<br>
                 <strong>Email:</strong>thibact@tut.ac.za<br>
               </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
+              <!-- <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div> -->
             </div>
+            <!-- <div class="footer-links">
+              <h4>Useful Links</h4>
+              <ul class="horizontal-footer-links">
+                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="announcements.html">Annoucements</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="challenges.html" onclick="challenge()">Challenges</a>
+                </li>
+                <li><i class="bx bx-chevron-right"></i> <a href="themes.html">Themes</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="hackathon.html">Hackathon</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="contacts.html">Contacts</a></li>
+              </ul>
+            </div> -->
           </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="announcements.html">Annoucements</a></li>
-
-            </ul>
-          </div>
-
-          
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-
-            </form>
-
-          </div>
-
         </div>
+
+        <!-- <div class="col-lg-9 col-md-6 footer-links">
+          <ul>
+            <h4>Useful Links</h4>
+            <ul class="footer-links">
+              <li id="home-footer"><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="announcements.html">Annoucements</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="challenges.html" onclick="challenge()">Challenges</a>
+              </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="themes.html">Themes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="hackathon.html">Hackathon</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contacts.html">Contacts</a></li>
+            </ul>
+          </ul>
+        </div> -->
       </div>
     </div>
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>TUT</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>MAISH</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -222,8 +256,10 @@
       </div>
     </div>
   </footer><!-- End Footer -->
+
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
