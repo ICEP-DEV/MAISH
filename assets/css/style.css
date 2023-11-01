@@ -9,6 +9,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.container{
+  padding-bottom: 15px;
+  top: 35px;
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -431,8 +437,9 @@ h6 {
 
 #hero .container {
   position: relative;
-  padding-top: 74px;
+  padding-top: 100px;
   text-align: center;
+  padding-bottom:80px ;
 }
 
 #hero h1 {
@@ -463,7 +470,7 @@ h6 {
 }
 
 #hero .icon-box i {
-  font-size: 32px;
+  font-size: 26px;
   line-height: 1;
   color: #E53FC2;
 }
@@ -493,22 +500,35 @@ h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    
   }
 }
 
 @media (max-width: 768px) {
+  #hero .container {
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom:80px ;
+  }
   #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/hero-bg.jpg") top center;
+    background-size: cover;
+    position: relative;
+    cursor:pointer;
     height: auto;
   }
 
   #hero h1 {
     font-size: 28px;
-    line-height: 36px;
+    line-height: 30px;
   }
 
   #hero h2 {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 20px;
   }
 }
 
