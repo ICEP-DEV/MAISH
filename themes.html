@@ -20,8 +20,8 @@
 
   <!-- Vendor CSS Files -->
    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <!--<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
@@ -44,48 +44,38 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages">
-    <div class="container d-flex align-items-center justify-content-lg-between">
+ <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top ">
+  <div class="container d-flex align-items-center ">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/img/mp.png" alt=""
-        style="width: 0%;"></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    <a href="index.html"><img src="assets/img/mpa.png" style="width: 60%;"  ></a>
+    
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown"><a href="about.html"><span>About Us</span></a>
-            <!-- <li class="dropdown"><a href="#about"><span>About Us</span> <i class="bi bi-chevron-down"></i></a> -->
-            <!-- <ul>
-              <li><a href="about.html">Who we are</a></li>
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto" href="index.html">Home</a></li>
 
+        <li ><a href="about.html"><span>About Us</span></i></a>
+        </li>
 
-              </li>
-              <li><a class="nav-link scrollto" href="#services">Vision,Mission,Values</a></li>
-              <li><a class="nav-link scrollto" href="#team">Board & Management</a></li>
+        <li><a class="nav-link scrollto" href="team.html">Team</a></li>
+        <li><a class="nav-link scrollto active" href="themes.html"> Themes</a></li> 
+        <li><a  href="programme.html"> Programme</a></li>
+        <li><a href="announcements.html"> Annoucements</a></li>
+       
 
-            </ul> -->
-          </li>
-
-
-          <li><a href="team.html">Team</a></li>
-          <li><a href="announcements.html">Annoucements</a></li>
-          <li><a href="programme.html"> Programme</a></li>
-          <li><a href="contacts.html">Contacts</a></li>
+        </li>
+        <li><a class="nav-link scrollto" href="contacts.html">Contact</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
 
 
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
 
-      
-      <!--  -->
-
-    </div>
-  </header><!-- End Header -->
-
+  </div>
+</header><!-- End Header -->
   <main id="main">
 
      <!-- ======= Breadcrumbs ======= -->
@@ -115,71 +105,236 @@
         </div>
         <div class="row">
 
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+          <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
             <table id="customers" >
               <thead >
                 <th>AI Hackathon Themes</th>
                 <th>Project Ideas</th>
-                <th style="padding: 5px;">Description</th>
+                <th>Problem Statement</th>
+                <th style="padding: 5px;">Challenge</th>
+                <th>Objective</th>
               </thead>
+
               <tbody>
                 <tr class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
 
-                  <td rowspan="2">Health</td>
+                  <td rowspan="2">Pollution</td>
 
-                  <td>Smart Health Tracker</td>
-                  <td>Develop a comprehensive health tracking app that uses AI to analyze user input symptoms and give
-                    potential diagnoses, track emotional health through mood inputs, and provide personalized fitness
-                    and diet tips.</td>
-                </tr>
-                <tr>
-                  <td>Mental health virtual companion</td>
-                  <td>Program a chatbot that offers psychological support, providing resources, immediate conversation,
-                    tracking mental health status, and reminding users about taking their medication, meditation
-                    sessions, or scheduled therapy appointments.</td>
-                </tr>
-                <tr>
-                  <td rowspan="2">Safety</td>
+                  <td>Smart Waste Management System</td>
+                  <td>South Africa faces significant challenges in managing waste, especially in urban areas 
+                    where improper disposal leads to pollution. The lack of efficient waste management contributes to environmental degradation and health hazards.
+                  
 
-                  <td>Safety Compliance</td>
-                  <td>The system must use AI to detect if the person entering the work area has all required PPE (personal protection equipment). After the person has entered, the model must be able to keep monitoring the personnel around the area covered by security camera, then highlight (either by text, audio, etc.) who and when did the non-compliance happen (e.g. someone taking off the hard-hat or hand-gloves) </td>
+                    
+                  </td>
+                  <td>Develop a smart waste management system that optimizes waste collection and disposal in urban and rural areas. The solution should include:
+                    
+                    <ul style="list-style-type: disc; padding-left: 20px;">
+                      <li>Real-time monitoring of waste levels in bins using IoT sensors.</li>
+                      <li>A mobile app for citizens to report waste issues and track waste collection schedules.</li>
+                      <li>An AI-driven algorithm that optimizes collection routes for waste disposal trucks, reducing fuel consumption and
+                      emissions.</li>
+                      <li>A public awareness campaign integrated into the app to educate users on recycling and proper waste disposal.</li>
+                    </ul>
+                  </td>
+
+
+                  <td>Reduce the amount of waste that ends up in landfills, minimize illegal dumping, and lower the carbon footprint of waste management operations.</td>
+                </td>
                 </tr>
-                <tr>
-                  <td>Emergency Response System</td>
-                  <td>utilize machine learning and GPS tracking to create an app that helps locate individuals in
-                    emergency situations, like natural disasters, directing them to the nearest safe zones and providing
-                    live updates on the situation.</td>
+                <tr class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                  <td>Air Quality Monitoring and Alert System</td>
+                  <td>Air pollution is a growing concern in South Africa, particularly in industrial areas and densely populated cities. Poor air quality can lead to serious health issues and environmental damage.</td>
+                  <td>Create an air quality monitoring and alert system tailored for South African cities. The system should:
+                    <ul style="list-style-type: disc; padding-left: 20px;">
+                      <li>Deploy low-cost air quality sensors across different regions to collect data on pollutants like PM2.5, PM10, NO2, and
+                      CO2.</li>
+                      <li>Use data analytics to identify pollution hotspots and track trends over time.</li>
+                      <li>Develop a mobile app that provides real-time air quality updates and health advisories to users, particularly those with
+                      respiratory conditions.</li>
+                      <li>Incorporate a predictive model that alerts users of potential air quality issues based on weather forecasts and
+                      historical data.</li>
+                    </ul>
+                  </td>
+                    <td>Increase public awareness of air pollution, empower citizens with information to protect their health, and support local authorities 
+                      in making data-driven decisions to improve air quality.</td>
                 </tr>
 
                 <tr>
-                  <td rowspan="2">Service Delivery</td>
+                  <td rowspan="2">Agriculture</td>
 
-                  <td>Automated Waste sorter</td>
-                  <td>Build a prototype for a device that uses image recognition to sort waste into recyclables,
-                    compost, and trash, encouraging proper waste management and sustainability.</td>
-                </tr>
-                <tr>
-                  <td>Crowdsource Commute planning</td>
-                  <td>Design an app that aggregates public transport and traffic data, user-reported conditions, and
-                    alternative routes (like cycling paths) to optimize commute times, reduce congestion, and promote
-                    eco-friendly transport options</td>
-                </tr>
-                <tr>
-                  <td rowspan="3">Education</td>
+                  <td>AI-Powered Precision Farming</td>
+                  <td>
+                    Small-scale farmers in South Africa often face challenges in optimizing crop yield due to varying soil conditions, unpredictable weather,
+                     and limited access to modern farming techniques.
+                  </td>
+                  <td>
+                    Develop an AI-powered precision farming system that helps small-scale farmers optimize their crop production. The solution should include:
+                    <ul style="list-style-type: disc; padding-left: 20px;">
+                      <li>A machine learning model that analyses soil data (such as pH, moisture, and nutrient levels) and provides crop-specific
+                      recommendations.</li>
+                      <li>A mobile app or platform where farmers can input their soil data and receive real-time insights on the best planting and
+                      irrigation strategies.</li>
+                      <li>Integration with weather forecasting APIs to provide predictive analytics for pest outbreaks and ideal harvesting times.</li>
+                      <li>An AI-driven system to monitor crop health using drone or satellite imagery, offering early detection of diseases or
+                      nutrient deficiencies.</li>
+                    </ul>
+                    
+                  </td>
+                  <td>
+                  Increase crop yield and reduce resource wastage, empowering small-scale farmers with accessible and affordable AI tools.
+  
 
-                  <td>Tourist Attraction</td>
-                  <td>The system must use AI to provide extra information on any tourist attraction given a picture if it. Example, a use takes a picture of the site (e.g. 3 rondavels)  - then the model generate explanation about it – maybe even recommendations. This could be more vital for rural areas or less toured areas as popular ones might be covered. E.g. the system might use feed from social media regarding that area/attraction site (citizen comments) or webistes (official/professional comments)</td>
+                  </td>
                 </tr>
-                <tr>
-                  <td>Cyber Defense Game</td>
-                  <td>Develop an educational computer game that teaches players about cybersecurity, including safe
-                    practices, password security, and phishing scam identification, through real-life scenarios</td>
-                </tr>
-                <tr>
-                  <td>Language Learning Appe</td>
-                  <td>Create an interactive, AI-powered language learning app that personalizes content based on the user's proficiency level, learning pace, and daily life and interests, using speech recognition for pronunciation correction.</td>
 
+
+                <tr>
+                  <td>AI-Based Market Prediction for Crop Prices</td>
+                  <td>
+                    Farmers in South Africa often struggle with unpredictable market prices for their crops, leading to financial instability and food 
+                    wastage when they cannot sell their produce at profitable prices.
+                  </td>
+                  <td>Create an AI-based market prediction system that helps farmers anticipate crop prices and make informed decisions about planting and selling. The solution should include:
+                    
+                    <ul style="list-style-type: disc; padding-left: 20px;">
+                      <li>A machine learning model that predicts crop prices based on historical data, market trends, weather conditions, and
+                      regional demand.</li>
+                      <li>A user-friendly interface that allows farmers to input details about their crops and receive price forecasts and market
+                      insights.</li>
+                      <li>Integration with local and national market data to provide real-time price monitoring and alerts for significant price
+                      changes.</li>
+                      <li>A recommendation engine that suggests the best times to sell or store crops based on predicted market fluctuations.</li>
+                    </ul>
+                  </td>
+
+                    <td>Help farmers maximize profits, reduce financial risks, and improve the efficiency of the agricultural supply chain.</td>
+                   
                 </tr>
+                <tr>
+                <tr>
+                  
+                </tr>
+                <td rowspan="2">Tourism</td>
+                
+                  
+
+                  <td>AI-Driven Eco-Tourism Guide for Mpumalanga</td>
+                  <td>Mpumalanga is known for its rich biodiversity and natural wonders like the Kruger National Park and Blyde River Canyon. However, 
+                    many tourists are unaware of the lesser-known eco-tourism spots, leading to overcrowding in popular areas and underutilization of others.</td>
+                    <td>Develop an AI-driven eco-tourism guide that promotes sustainable tourism by highlighting hidden gems in Mpumalanga. The solution should include:
+                      <ul style="list-style-type: disc; padding-left: 20px;">
+                        <li>An AI-powered recommendation engine that suggests eco-friendly travel itineraries based on user preferences, such as
+                        wildlife viewing, hiking, or cultural experiences.</li>
+                        <li>Real-time updates on the environmental impact of tourism activities, guiding users toward sustainable practices.</li>
+                        <li>Integration with local businesses and communities to offer personalized experiences that benefit both tourists and
+                        residents.</li>
+                        <li>An AI chatbot that provides instant information on the best times to visit specific attractions, weather conditions, and
+                        conservation tips.</li>
+                      </ul>
+                    </td>
+                    <td>Promote sustainable tourism in Mpumalanga, reduce environmental impact, and support local communities by directing tourists to lesser-known, eco-friendly destinations.</td>
+                </tr>
+                <tr>
+                  <td>AI-Powered Cultural Heritage Explorer for Mpumalanga</td>
+                  <td>Mpumalanga is rich in cultural heritage, including historical sites, traditional villages, and indigenous art. However, many of these cultural treasures are under-promoted, 
+                    leading to missed opportunities for cultural tourism.</td>
+                    <td>Create an AI-powered cultural heritage explorer that showcases the diverse cultural experiences available in Mpumalanga. The solution should include:
+                      <ul style="list-style-type: disc; padding-left: 20px;">
+                        <li>A machine learning model that curates personalized cultural tours based on user interests, such as history, art, or
+                        indigenous culture.</li>
+                        <li>Augmented reality (AR) features that enhance the tourist experience by providing immersive historical narratives or
+                        virtual reconstructions of ancient sites.</li>
+                        <li>A mobile app that offers real-time translation of local languages and insights into cultural practices, making it easier
+                        for tourists to engage with local communities.</li>
+                        <li>An AI-driven platform that connects tourists with local guides, artisans, and cultural events, ensuring an authentic and
+                        respectful cultural experience.</li>
+                      </ul>
+                    </td>
+
+                      <td>Increase awareness and appreciation of Mpumalanga's cultural heritage, attract more cultural tourists, 
+                        and provide economic opportunities for local communities by preserving and promoting their traditions.</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">Climate Change</td>
+
+                  <td>AI-Driven Climate Resilience Platform for Agriculture</td>
+                  <td>Climate change is increasingly affecting agricultural productivity in South Africa, with changing rainfall patterns, 
+                    increased temperatures, and more frequent extreme weather events. Farmers need tools to adapt to these changes to ensure food security.</td>
+                  <td>Develop an AI-driven platform that helps farmers in South Africa adapt to the effects of climate change by improving climate resilience. The solution should include:
+
+                    <ul style="list-style-type: disc; padding-left: 20px;">
+                      <li>A machine learning model that predicts the impact of climate variables on crop yield based on historical weather data
+                      and climate projections.</li>
+                      <li>A decision support tool that recommends adaptive farming practices, such as drought-resistant crops, water-saving
+                      irrigation techniques, or changes in planting schedules.</li>
+                      <li>A mobile app that provides real-time alerts about extreme weather events and offers actionable advice to minimize crop
+                      damage.</li>
+                      <li>Integration with local climate data to provide region-specific insights and recommendations, empowering farmers with
+                      localized strategies to mitigate climate risks.</li>
+                    </ul>
+                  </td>
+                  <td>Enhance the ability of South African farmers to cope with climate variability, reduce the negative impact of climate change on agriculture, and contribute to food security.</td>
+                </tr>
+                <tr>
+                  <td>AI-Powered Carbon Footprint Tracker and Reduction Planner</td>
+                  <td>Climate change is driven by high levels of greenhouse gas emissions, yet individuals and businesses often lack the tools to effectively measure and reduce their carbon footprint.
+                    This lack of awareness and actionable data hinders efforts to combat climate change.</td>
+                  <td>Create an AI-powered tool that enables individuals and businesses in South Africa to measure, track, and reduce their carbon footprint. The solution should include:
+
+                    <ul style="list-style-type: disc; padding-left: 20px;">
+                      <li>An AI model that calculates carbon emissions from various activities, such as transportation, energy use, and
+                      consumption patterns, based on user input or connected devices.</li>
+                      <li>A personalized carbon reduction plan that suggests actions to lower emissions, such as switching to renewable energy,
+                      reducing waste, or optimizing travel routes.</li>
+                      <li>A gamified mobile app that encourages users to reduce their carbon footprint by setting goals, tracking progress, and
+                      earning rewards for sustainable behaviours'.</li>
+                      <li>A community feature that connects users with local carbon offset projects or green initiatives, fostering collective
+                      action against climate change.</li>
+                    </ul>
+                  </td>
+                    <td>Raise awareness of personal and corporate contributions to climate change, empower users with tools to reduce their carbon footprint, and promote
+                      sustainable practices across South Africa.</td>
+                </tr>
+                
+
+                <tr>
+                  <td rowspan="3">Waste Management</td>
+
+                  <td>AI-Powered Waste Sorting and Recycling System</td>
+                  <td>Waste segregation at the source is critical for effective recycling,
+                     but many households and businesses in South Africa struggle with proper waste sorting, leading to significant amounts of recyclable materials ending up in landfills.</td>
+                  <td>Develop an AI-powered waste sorting system that improves the accuracy and efficiency of recycling at the household and community levels. The solution should include:
+
+                    <ul style="list-style-type: disc; padding-left: 20px;">
+                      <li>An AI-based image recognition model that identifies different types of waste (plastic, paper, glass, organic, etc.) from
+                      photos taken by users.</li>
+                      <li>A mobile app that guides users through the waste sorting process, providing feedback on how to correctly separate
+                      recyclables from non-recyclables.</li>
+                      <li>A gamified system that rewards users for consistently sorting their waste correctly, possibly linking with local
+                      recycling programs or facilities.</li>
+                      <li>Integration with local waste collection schedules to remind users when and how to dispose of sorted waste for
+                      collection.</li>
+                    </ul>
+                  </td>
+                  <td>Increase recycling rates by empowering individuals and communities with an easy-to-use tool for waste sorting, reducing contamination in recycling streams, 
+                    and diverting more waste from landfills.</td>
+                </tr>
+                <!-- <tr>
+                  <td>AI-Driven Waste Collection Optimization</td>
+                  <td>Inefficient waste collection schedules and routes can lead to overflowing bins, missed pickups, and unnecessary fuel consumption, 
+                    contributing to environmental pollution and operational inefficiencies in South Africa's waste management systems.</td>
+                  <td>Create an AI-driven platform that optimizes waste collection routes and schedules for municipalities or waste management companies. The solution should include:
+
+                    · A machine learning model that predicts waste generation patterns based on historical data, seasonality, and community demographics.
+                    
+                    · A route optimization algorithm that adjusts collection routes in real-time, reducing fuel consumption, emissions, and operational costs.
+                    
+                    · An IoT-based system that monitors bin fill levels in real-time and triggers collection when necessary, preventing overflows and reducing unnecessary pickups.
+                    
+                    · A dashboard for waste management authorities to monitor collection efficiency, track fleet performance, and receive actionable insights for continuous improvement.</td>
+                    <td>Improve the efficiency and sustainability of waste collection operations, reduce carbon emissions from waste management vehicles, and enhance service delivery to communities.</td>
+                </tr>  -->
               </tbody>
             </table>
 
@@ -200,7 +355,8 @@
           <div class="col-lg-3 col-md-6 footer-info">
             <div class="details">
               <p>
-                <strong>Address:</strong>Mandela St, Witbank, Emalahleni, 1034<br>
+                <strong>Address:<br> </strong>University of Mpumalanga <br>Cnr R40 and D725 Roads <br> Riverside <br> Mbombela<br> 1200
+                <br>
                 <strong>Phone:</strong>0724465512<br>
                 <strong>Email:</strong>thibact@tut.ac.za<br>
               </p>
@@ -240,7 +396,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="contacts.html">Contacts</a></li>
             </ul>
           </ul>
-        </div> -->
+        </div> 
       </div>
     </div>
 
@@ -249,7 +405,7 @@
         &copy; Copyright <strong><span>MAISH</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
+        <-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
